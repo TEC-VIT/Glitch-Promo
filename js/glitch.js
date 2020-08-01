@@ -47,6 +47,7 @@ $(document).ready(function(){
 
 //timeline bulb show
 	$(".bulb").click(function(e){
+		$( ".bulb" ).not(this).removeClass("bulb-big");
 		$(this).toggleClass("bulb-big"); });
 });
 

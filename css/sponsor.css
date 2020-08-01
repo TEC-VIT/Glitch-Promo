@@ -186,7 +186,7 @@ ul{
     display:flex;
     align-items:center;
     justify-content:center;
-    color:black;
+    color:rgb(150, 149, 149);
     height:7vh;
     background:white;
 }

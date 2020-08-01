@@ -255,6 +255,7 @@ html {
     border-radius:0.5vh;
     transition: 0.5s;
 }
+
 .line{
     height:0.5vh;
     flex-grow:1;
@@ -435,7 +436,7 @@ html {
      background-color:#ffffff;
     display:flex;
     align-items:center;
-    color:black;
+    color:rgb(150, 149, 149);
     /* font-size:14px; */
     justify-content:center;
     height:7vh;
