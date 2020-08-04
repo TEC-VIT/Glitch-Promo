@@ -58,18 +58,6 @@ AOS.init({
   })
 
 
-//preloader animation
-// const text=baffle(".word");
-// text.set({
-// 	 characters:'▒░▓ █AlIDP█?█▒░ █<░▓█ ▒░/ ░▓█░▒UIDCJD% ██░..#▓ ▒▒░ <▒█/ ▒░▒/',
-// 	 speed:120
-// })
-// text.start();
-
-// window.onload= ()=>{
-// 	text.reveal(3000);
-// 	setTimeout(function(){ $(".loader").css("display","none");}, 3000);
-// }
 
 
   
