@@ -247,6 +247,9 @@ html {
     height:5vh;
     background:white;
     border-radius:2.5vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     transition: 0.5s;
 }
 .bulb-big{
@@ -255,7 +258,15 @@ html {
     border-radius:0.5vh;
     transition: 0.5s;
 }
-
+.time-txt{
+    color:white;
+    padding:5px;
+    display:none;
+}
+.show-txt{
+    display:flex;
+    color:black;
+}
 .line{
     height:0.5vh;
     flex-grow:1;
