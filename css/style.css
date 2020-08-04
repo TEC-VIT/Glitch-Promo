@@ -250,7 +250,7 @@ html {
     display:flex;
     align-items:center;
     justify-content:center;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 .bulb-big{
     width:25vh;
@@ -261,11 +261,21 @@ html {
 .time-txt{
     color:white;
     padding:5px;
+    font-size:12px;
+    text-align:center;
     display:none;
+    transition:0.1s
+}
+.time-txt h4{
+    font-size:14px;
+    padding:0;
+    margin:4px;
 }
 .show-txt{
     display:flex;
     color:black;
+    flex-direction:column;
+    transition:0.1s
 }
 .line{
     height:0.5vh;

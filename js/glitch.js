@@ -47,10 +47,10 @@ $(document).ready(function(){
 
 //timeline bulb show
 	$(".bulb").click(function(e){
-		$( ".bulb" ).not(this).removeClass("bulb-big");
 		$( ".bulb" ).not(this).children("span").removeClass("show-txt");
+		$( ".bulb" ).not(this).removeClass("bulb-big");
 		$(this).toggleClass("bulb-big");
-		setTimeout(() => { $(this).children("span").toggleClass("show-txt"); }, 100);
+		setTimeout(() => { $(this).children("span").toggleClass("show-txt"); }, 300);
 		
 	 });
 });
