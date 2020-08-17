@@ -245,17 +245,58 @@ html {
     width:7vh;
     cursor:pointer;
     height:7vh;
-    background:rgb(255, 255, 255);
     border-radius:3.5vh;
     display:flex;
     align-items:center;
     justify-content:center;
     transition: 1.5s;
+    
+}
+.bulb:nth-child(1){
+    background:white url("../assets/1.png");
+    background-size: 5vh 5vh;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.bulb:nth-child(3){
+    background:white url("../assets/2.png");
+    background-size: 5vh 5vh;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.bulb:nth-child(5){
+    background:white url("../assets/3.png");
+    background-size: 5vh 5vh;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.bulb:nth-child(7){
+    background:white url("../assets/4.png");
+    background-size: 5vh 5vh;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.bulb:nth-child(9){
+    background:white url("../assets/5.png");
+    background-size: 5vh 5vh;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.bulb:nth-child(11){
+    background:white url("../assets/6.png");
+    background-size: 5vh 5vh;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.bulb:nth-child(13){
+    background:white url("../assets/7.png");
+    background-size: 5vh 5vh;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 .bulb-big{
     width:25vh;
     height:15vh;
-    background:white;
     border-radius:0.5vh;
     transition: 0.5s;
 }
@@ -275,6 +316,7 @@ html {
 .show-txt{
     display:flex;
     color:black;
+    background:white;
     flex-direction:column;
     transition:0.1s
 }
