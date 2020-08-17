@@ -27,6 +27,11 @@ html {
 #menu:focus{
 	outline:none;
 }
+#home-in{
+    font-weight:bold;
+    color:white;
+    margin:0;
+}
 #loading{
     background:black;
     width:100%;
