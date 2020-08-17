@@ -135,6 +135,12 @@ ul{
     display:none;
     color:rgb(248, 115, 115);
 }
+.middle{
+    height:40vh;
+    width:100%;
+    display:none;
+    color:rgb(255, 189, 189);
+}
 .sec22 h4{
     width:90%;
 }
@@ -240,6 +246,12 @@ ul{
         width:100%;
         display:none;
         color:rgb(248, 115, 115);
+    }
+    .middle{
+        height:10vh;
+        width:100%;
+        display:none;
+        color:rgb(255, 189, 189);
     }
     .sec21{
         margin-top:15vh;
