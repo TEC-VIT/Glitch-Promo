@@ -27,11 +27,13 @@ html {
 #menu:focus{
 	outline:none;
 }
-#home-in{
+/* #home-in{
     font-weight:bold;
     color:white;
+    width:100%:
+    text-align:center;
     margin:0;
-}
+} */
 #loading{
     background:black;
     width:100%;
