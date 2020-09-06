@@ -48,6 +48,7 @@ img{
     animation: float 4s ease-in-out infinite;
     width:310px;
     height:auto;
+    max-height:300px;
 }
 
 @keyframes float {
