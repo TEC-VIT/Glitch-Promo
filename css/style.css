@@ -119,7 +119,7 @@ html {
     margin-top:3vh;
 }
 #logo{
-    width: 180px;
+    width: 300px;
     z-index:50;
     height:auto;
 }
@@ -541,11 +541,8 @@ html {
     font-size:30px;
 }
 .prizes-2{
-    display:flex;
-    flex-grow:1;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: center;
+    display: flex;
+    justify-content:space-around;
     padding:0 5%;
     align-items:center;
     min-width:40%;
@@ -560,37 +557,37 @@ html {
     color: black;
     background-color: white;
 }
-/*.prize-card{
+.prize-card{
     margin: 2vh 0;
     height: 25vh;
     width:80%;
-    display:flex;
-    align-items:center;
-    flex-direction: column;;
-    justify-content:center;
     color:white;
-}*/
+}
 .prizes-1{
     display:flex;
     padding-right:2vh;
     flex-grow:1;
     flex-direction:column;
 }
-/*.cost{
+.cost{
     margin-top:-20px;
     font-weight:400;
     font-size:20px;
     color:rgb(250, 52, 95);
-}*/
+}
 #pr-img{
     margin-top:5vh;
     width:450px;
     height:auto;
 }
-/*.win-im{
+.win-im{
     height:12vh;
     width:auto;
-}*/
+}
+.testimonials{
+    background-color: gray;
+    padding:10px;
+}
 .drp-rot{
     transform:rotate(-135deg);
     transition:0.5s;
