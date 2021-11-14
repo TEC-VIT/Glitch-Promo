@@ -550,7 +550,17 @@ html {
     align-items:center;
     min-width:40%;
 }
-.prize-card{
+.Prize-Announcement{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    background-color: white;
+}
+/*.prize-card{
     margin: 2vh 0;
     height: 25vh;
     width:80%;
@@ -559,28 +569,28 @@ html {
     flex-direction: column;;
     justify-content:center;
     color:white;
-}
+}*/
 .prizes-1{
     display:flex;
     padding-right:2vh;
     flex-grow:1;
     flex-direction:column;
 }
-.cost{
+/*.cost{
     margin-top:-20px;
     font-weight:400;
     font-size:20px;
     color:rgb(250, 52, 95);
-}
+}*/
 #pr-img{
     margin-top:5vh;
     width:450px;
     height:auto;
 }
-.win-im{
+/*.win-im{
     height:12vh;
     width:auto;
-}
+}*/
 .drp-rot{
     transform:rotate(-135deg);
     transition:0.5s;
