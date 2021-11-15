@@ -4,6 +4,7 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  background: #161616;
 }
 html {
   scroll-behavior: smooth;
@@ -99,6 +100,7 @@ html {
   background: #111111;
   width: 100%;
   min-height: 100vh;
+  transition: all 0.5s;
 }
 /* home styles */
 
@@ -125,15 +127,16 @@ html {
   z-index: 50;
   text-align: center;
   line-height: 28px;
-  margin-top: 3vh;
+  margin: 5px 0;
 }
 #logo {
-  width: 300px;
+  width: 180px;
   z-index: 50;
   height: auto;
 }
-#coming_soon{
-  margin-top: 15px 0;
+#coming_soon {
+  margin-top: 10px;
+  text-align: center;
   font-size: 25px;
   font-weight: 500;
 }
@@ -592,10 +595,10 @@ html {
   height: 13vh;
   width: auto;
 }
-.prize_coming_soon h4{
+.prize_coming_soon h4 {
   margin: 0;
 }
-.prize_coming_soon{
+.prize_coming_soon {
   margin-top: 10px;
   font-size: 25px;
   font-weight: 500;
@@ -618,11 +621,11 @@ html {
 }
 .testimonials-grid {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
 }
 .testimonial-card {
-  width: 25%;
+  width: 28%;
 }
 .testimonial-rating {
   margin-bottom: 10px;
@@ -812,7 +815,7 @@ html {
     justify-content: center;
   }
   .testimonial-card {
-    width: 75%;
+    width: 100%;
     margin-bottom: 30px;
   }
 }
@@ -823,19 +826,17 @@ html {
     padding-bottom: 5%;
   }
   .home-sec1 p {
-    margin-top: 3vh;
+    margin-top: 15px;
     width: 80%;
-    display: flex;
-    align-self: center;
   }
   #logo {
-    width: 170px;
+    width: 200px;
   }
-  .prizes-2{
+  .prizes-2 {
     text-align: center;
   }
-  #coming_soon{
-    margin-top: 1vh;
+  #coming_soon {
+    margin-top: 15px;
     font-size: 20px;
     font-weight: 600;
   }

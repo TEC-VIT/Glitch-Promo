@@ -15,12 +15,14 @@ flag=2;
 			document.getElementById("m1").style.transform = "rotate(0deg)"; 
 			document.getElementById("m3").style.transform = "rotate(0deg)"; 
 			document.getElementById("ctn").style.transform = "translateX(0%)"; 
+			document.getElementsByClassName("flex-container")[0].style.filter = "blur(0px)";
 		}
 		else{
 			document.getElementById("m2").style.opacity=0; 
 			document.getElementById("m1").style.transform = "rotate(45deg) translateY(8px)"; 
 			document.getElementById("m3").style.transform = "rotate(-45deg) translateY(-8px)"; 
 			document.getElementById("ctn").style.transform = "translateX(100%)"; 
+			document.getElementsByClassName("flex-container")[0].style.filter = "blur(10px)";
 		}	
 	};
 	function myFunction(x) {
