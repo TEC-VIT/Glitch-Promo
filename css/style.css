@@ -288,30 +288,42 @@ html {
   background-repeat: no-repeat;
 }
 .bulb:nth-child(5) {
-  background: white url("../assets/4.png");
+  background: white url("../assets/9.png");
   background-size: 5vh 5vh;
   background-position: center;
   background-repeat: no-repeat;
 }
 .bulb:nth-child(7) {
-  background: white url("../assets/5.png");
+  background: white url("../assets/8.png");
   background-size: 5vh 5vh;
   background-position: center;
   background-repeat: no-repeat;
 }
 .bulb:nth-child(9) {
-  background: white url("../assets/6.png");
+  background: white url("../assets/4.png");
   background-size: 5vh 5vh;
   background-position: center;
   background-repeat: no-repeat;
 }
 .bulb:nth-child(11) {
-  background: white url("../assets/7.png");
+  background: white url("../assets/5.png");
   background-size: 5vh 5vh;
   background-position: center;
   background-repeat: no-repeat;
 }
 .bulb:nth-child(13) {
+  background: white url("../assets/9.png");
+  background-size: 5vh 5vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bulb:nth-child(15) {
+  background: white url("../assets/6.png");
+  background-size: 5vh 5vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bulb:nth-child(17) {
   background: white url("../assets/7.png");
   background-size: 5vh 5vh;
   background-position: center;
@@ -566,13 +578,25 @@ html {
   min-width: 40%;
 }
 .prize-images {
+  position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 .prize-card {
   margin: 2vh 0;
   color: white;
+  display: flex;
+  justify-content: center;
+}
+.prize-card:nth-child(2) {
+  width: 50%;
+}
+.prize-card:nth-child(1) {
+  width: 100%;
+}
+.prize-card:nth-child(3) {
+  width: 50%;
 }
 .prizes-1 {
   display: flex;
@@ -831,6 +855,9 @@ html {
   }
   #logo {
     width: 200px;
+  }
+  .line {
+    height: 5vh;
   }
   .prizes-2 {
     text-align: center;
